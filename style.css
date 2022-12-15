@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* body {
+  background-image: url(image/fundo.webp);
+  font-family: "Roboto Mono", monospace;
+}
+* body .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+* body .container .profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  margin-top: 25px;
+}
+* body .container .profile img {
+  width: 230px;
+  border-radius: 100%;
+  margin-bottom: 15px;
+}
+* body .container .profile .title {
+  font-size: 25px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+* body .container .profile .products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 50px;
+  margin: 10px;
+  background: #000000;
+  border-radius: 5px;
+}
+* body .container .profile .products:hover {
+  width: 245px;
+  transition: 500ms;
+}
+* body .container .profile .products a {
+  padding: 8px;
+  text-decoration: none;
+  color: #F5FFFA;
+}
+* body .container .profile .products a:hover {
+  color: #F5FFFA;
+}/*# sourceMappingURL=style.css.map */
