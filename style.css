@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 * body {
-  background-image: url(image/fundo.webp);
-  font-family: "Roboto Mono", monospace;
+  background-image: url(image/Frame\ 2.jpg);
+  font-family: "Montserrat", sans-serif;
 }
 * body .container {
   display: flex;
@@ -27,29 +27,38 @@
   margin-bottom: 15px;
 }
 * body .container .profile .title {
-  font-size: 25px;
-  color: #000000;
-  margin-bottom: 30px;
+  margin-bottom: 2px;
+  font-size: 34px;
+  font-weight: bold;
+  color: #F5FFFA;
+}
+* body .container .profile span {
+  margin-bottom: 26px;
+  font-size: 17px;
+  color: #F5FFFA;
 }
 * body .container .profile .products {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 240px;
-  height: 50px;
+  height: 70px;
   margin: 10px;
-  background: #000000;
-  border-radius: 5px;
+  background: #F5FFFA;
+  border-radius: 8px;
 }
 * body .container .profile .products:hover {
   width: 245px;
-  transition: 500ms;
+  height: 65px;
+  transition: 400ms;
+  box-shadow: 0 0 4px #F5FFFA;
 }
 * body .container .profile .products a {
   padding: 8px;
   text-decoration: none;
-  color: #F5FFFA;
+  font-weight: bold;
+  color: #808080;
 }
 * body .container .profile .products a:hover {
-  color: #F5FFFA;
+  color: #747474;
 }/*# sourceMappingURL=style.css.map */

@@ -3,16 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 
+
     body {
-        background-image: url(../image/fundo.webp);
+        background-image: url(../image/Frame\ 2.jpg);
         background-size: cover;
-        font-family: 'Roboto Mono', monospace;
-        
+        font-family: 'Montserrat', sans-serif;
+
         .container {
             display: flex;
             flex-direction: column;
             align-items: center;
             margin-top: 30px;
+            color: #000000;
 
             .photos {
                 display: flex;
@@ -22,26 +24,28 @@
                 .design {
                     width: 250px;
                     margin: 20px;
-                    border: 3px solid #000000;
                     border-radius: 5px;
+                    border: 3px solid #000000;
+
+                    &:hover {
+                        scale: 102%;
+                        transition: all 500ms;
+                    }
                 }
             }
             
             .button-home {
-                width: 80px;
-                height: 30px;
+                width: 100px;
+                height: 40px;
                 margin: 30px;
-                background: #000000;
-                border: 2px solid #000000;
-                border-radius: 5px;
+                background: #F5FFFA;
+                border-radius: 8px;
+                border: 2px solid #F5FFFA;
 
-                &:hover {
-                    background: #000000;
-                }
-                
                 a {
+                    font-size: 15px;
                     text-decoration: none;
-                    color: #F5FFFA;
+                    color: #808080;
 
                 }
             }
