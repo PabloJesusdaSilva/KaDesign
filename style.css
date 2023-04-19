@@ -4,7 +4,13 @@
   box-sizing: border-box;
 }
 * body {
-  background-image: url(image/Frame\ 2.jpg);
+  width: 100%;
+  height: 100vh;
+  background: rgb(154, 83, 213);
+  background: linear-gradient(188deg, rgb(154, 83, 213) 0%, rgb(185, 136, 226) 51%, rgb(178, 113, 231) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-image: url(image/Frame\ 2.jpg);*/
   font-family: "Montserrat", sans-serif;
 }
 * body .container {
@@ -34,7 +40,7 @@
 }
 * body .container .profile span {
   margin-bottom: 26px;
-  font-size: 17px;
+  font-size: 18x;
   color: #F5FFFA;
 }
 * body .container .profile .products {
@@ -48,9 +54,8 @@
   border-radius: 8px;
 }
 * body .container .profile .products:hover {
-  width: 245px;
-  height: 65px;
-  transition: 400ms;
+  scale: 1.1;
+  transition: all 500ms;
   box-shadow: 0 0 4px #F5FFFA;
 }
 * body .container .profile .products a {
