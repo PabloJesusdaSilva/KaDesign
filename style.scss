@@ -38,7 +38,7 @@
 
                 span {
                     margin-bottom: 26px;
-                    font-size: 17px;                    
+                    font-size: 18x;                    
                     color: #F5FFFA;
                 }
 
@@ -53,9 +53,8 @@
                     border-radius: 8px;
                     
                     &:hover {
-                        width: 245px;
-                        height: 65px;
-                        transition: 400ms;
+                        scale: 1.1;
+                        transition: all 500ms;
                         box-shadow: 0 0 4px #F5FFFA;
                     }
                     
